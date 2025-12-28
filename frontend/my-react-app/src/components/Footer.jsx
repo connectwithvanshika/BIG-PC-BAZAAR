@@ -6,7 +6,24 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Column 1 */}
+
+        {/* BRAND */}
+        <div className="footer-brand">
+          <h2>BIG PC BAZAAR</h2>
+          <p>
+            Your one-stop destination for high-performance laptops,
+            custom PCs and trusted tech accessories.
+          </p>
+
+          <div className="social-icons">
+            <a href="https://instagram.com" className="icon instagram"><FaInstagram /></a>
+            <a href="https://youtube.com" className="icon youtube"><FaYoutube /></a>
+            <a href="https://wa.me/917454930553" className="icon whatsapp"><FaWhatsapp /></a>
+            <a href="mailto:vanshika.connects@gmail.com" className="icon email"><FaEnvelope /></a>
+          </div>
+        </div>
+
+        {/* EXPLORE */}
         <div className="footer-column">
           <h4>Explore</h4>
           <ul>
@@ -17,7 +34,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Column 2 */}
+        {/* MARKETPLACE */}
         <div className="footer-column">
           <h4>Marketplace</h4>
           <ul>
@@ -28,7 +45,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Column 3 */}
+        {/* COMPANY */}
         <div className="footer-column">
           <h4>Company</h4>
           <ul>
@@ -38,47 +55,8 @@ const Footer = () => {
             <li>Contact</li>
           </ul>
         </div>
-
-        {/* Connect With Us */}
-        <div className="footer-column connect">
-          <h4>Connect With Us</h4>
-
-          <div className="social-icons">
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noreferrer"
-              className="icon instagram"
-            >
-              <FaInstagram />
-            </a>
-
-            <a
-              href="https://youtube.com"
-              target="_blank"
-              rel="noreferrer"
-              className="icon youtube"
-            >
-              <FaYoutube />
-            </a>
-
-            <a
-              href="https://wa.me/917454930553"
-              target="_blank"
-              rel="noreferrer"
-              className="icon whatsapp"
-            >
-              <FaWhatsapp />
-            </a>
-
-            <a href="mailto:vanshika.connects@gmail.com" className="icon email">
-              <FaEnvelope />
-            </a>
-          </div>
-        </div>
       </div>
 
-      {/* Bottom Bar */}
       <div className="footer-bottom">
         <span>© 2025 BIG PC BAZAAR. All rights reserved.</span>
         <div className="footer-links">
