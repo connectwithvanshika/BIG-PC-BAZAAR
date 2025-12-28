@@ -75,17 +75,7 @@
   border-radius: 10px;
 }
 
-/* .star-icon {
-  width: 60px;
-  height: 60px;
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
-} */
 
-/* .apple-icon {
-  width: 70px;
-  height: 70px;
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
-} */
 
 .card-body {
   position: relative;
@@ -102,14 +92,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
-/* .phone-image {
-  width: 100%;
-  max-width: 400px;
-  height: 300px;
-  object-fit: cover;
-  margin: 20px 0;
-} */
 
 
 
@@ -163,3 +145,65 @@
     font-size: 24px;
   }
 }
+
+@media (max-width: 1024px) {
+  .card-header {
+    height: 180px;
+  }
+
+  .card-title {
+    font-size: 28px;
+  }
+
+  .open-button {
+    padding: 14px 60px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .category-section {
+    padding: 30px 12px;
+  }
+
+  .card {
+    border-radius: 16px;
+  }
+
+  .card-header {
+    height: 160px;
+  }
+
+  .card-title {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  .phone-image {
+    max-height: 260px;
+  }
+
+  .open-button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-title {
+    font-size: 20px;
+  }
+
+  .phone-image {
+    max-height: 220px;
+  }
+}
+
+
+
