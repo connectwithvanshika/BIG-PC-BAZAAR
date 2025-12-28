@@ -3,6 +3,7 @@ import './App.css';
 import CategorySection from './components/CategorySection';
 import BottomBanner from './components/BottomBanner';
 import Footer from './components/Footer'
+import ChatBot from "./components/ChatBot";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BottomBanner />
 
        <Footer/>
+       <ChatBot />
      
     </div>
     
