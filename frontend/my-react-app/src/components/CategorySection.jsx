@@ -14,10 +14,8 @@ const CategorySection = () => {
               </svg>
             </div>
             <h2 className="card-title">LAPTOPS</h2>
-            <div className="icon-container">
-              {/* <svg className="star-icon" viewBox="0 0 100 100" fill="white">
-                <path d="M50,15 L61,45 L92,45 L67,63 L78,93 L50,75 L22,93 L33,63 L8,45 L39,45 Z" />
-              </svg> */}
+            <div className="content">
+              <p>High-performance laptops for every need</p>
             </div>
           </div>
           <div className="card-body">
@@ -39,10 +37,8 @@ const CategorySection = () => {
               </svg>
             </div>
             <h2 className="card-title">PC</h2>
-            <div className="icon-container">
-              {/* <svg className="apple-icon" viewBox="0 0 100 100" fill="white">
-                <path d="M50,20 C50,15 52,10 56,8 C54,5 50,3 45,3 C38,3 35,7 32,7 C29,7 25,3 20,3 C12,3 5,10 5,22 C5,35 15,50 25,50 C28,50 32,47 35,47 C38,47 42,50 46,50 C55,50 60,40 60,40 C52,37 50,28 50,25 M58,8 C60,5 61,2 61,0 C58,0 55,2 53,4 C51,6 50,9 50,12 C53,12 56,11 58,8" />
-              </svg> */}
+            <div className="content">
+              <p>Custom-built power for work & gaming</p>
             </div>
           </div>
           <div className="card-body">

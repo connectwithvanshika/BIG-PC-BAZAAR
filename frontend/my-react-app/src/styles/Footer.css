@@ -1,0 +1,165 @@
+/* =====================
+   GLOBAL RESET
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* =====================
+   FOOTER WRAPPER
+===================== */
+.footer {
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    #7c3aed 0%,
+    #9333ea 40%,
+    #a855f7 70%,
+    #c084fc 100%
+  );
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+/* =====================
+   FOOTER CONTENT
+===================== */
+.footer-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 70px 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+/* =====================
+   FOOTER COLUMNS
+===================== */
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-column ul li:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* =====================
+   CONNECT WITH US
+===================== */
+.connect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+/* =====================
+   ICONS
+===================== */
+.icon {
+  width: 52px;
+  height: 52px;
+  font-size: 28px;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: translateY(-4px) scale(1.05);
+}
+
+/* Brand colors */
+.icon.instagram { color: #E1306C; }
+.icon.youtube   { color: #FF0000; }
+.icon.whatsapp  { color: #25D366; }
+.icon.email     { color: #EA4335; }
+
+/* =====================
+   FOOTER BOTTOM
+===================== */
+.footer-bottom {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px 24px 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.footer-links span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.footer-links span:hover {
+  text-decoration: underline;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+
+  .footer-column {
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 50px 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .footer-links span {
+    margin-left: 0;
+    margin-right: 16px;
+  }
+}
